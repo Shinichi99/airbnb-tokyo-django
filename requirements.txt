@@ -1,7 +1,7 @@
 asgiref==3.7.2
 
 
-Django==4.0.0
+Django==3.2.19
 django-core==1.4.1
 
 Flask==2.2.2
