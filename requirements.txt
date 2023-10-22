@@ -10,18 +10,14 @@ Flask==2.2.2
 geopy==2.4.0
 
 gunicorn==21.2.0
-numpy==1.24.3
-numpydoc==1.5.0
+numpy==1.22.3
 
 pandas==2.1.1
-pandocfilters==1.5.0
+
 pathlib==1.0.1
 
 pickleshare==0.7.5
-Pillow==10.0.1
-pip==23.3.1
 
-PyQt5-sip==12.11.0
 sqlparse==0.4.4
 typing_extensions==4.7.1
 
