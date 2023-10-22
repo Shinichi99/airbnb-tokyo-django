@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-m+c17^!nc1*8^e0-5i9jcu^j9%8pz8x$s_(6c*-45(@v&75f_0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = "airbnb-tokyo-django.onrender.com"
+ALLOWED_HOSTS = ["airbnb-tokyo-django.onrender.com"]
 
 
 # Application definition
