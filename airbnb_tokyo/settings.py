@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-import dj_database_url
+# import dj_database_url
 from pathlib import Path
 import os
 
@@ -81,11 +81,12 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-DATABASES["default"] = dj_database_url.parse("postgres://airbnb_tokyo_django_user:qGrSxkmuD4sJnd9rJabC5LoPE2Bd3KxH@dpg-ckqjpsg5vl2c738162p0-a.oregon-postgres.render.com/airbnb_tokyo_django")
+# database_url = os.environ.get("DATABASE_URL")
+# DATABASES["default"] = dj_database_url.parse(database_url)
 
 
-# Password validation
-# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
+# # Password validation
+# # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
